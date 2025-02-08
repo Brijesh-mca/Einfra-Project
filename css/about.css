@@ -1,0 +1,32 @@
+.myText{
+    font-size: 120px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    
+
+    /* Background Image */
+    background: url('cube-14564_128.gif') no-repeat center;
+    background-size: cover;
+
+    /* Text Clipping */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+ 
+    
+}
+
+/* media query start header */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue !important;
+    }
+   .myText{
+    font-size: 60px
+   }
+  }
