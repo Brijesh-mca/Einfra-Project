@@ -6,3 +6,11 @@
     color: transparent;
     background-clip: text;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue !important;
+    }
+   .myText{
+    font-size: 60px !important
+   }
+  }

@@ -182,6 +182,30 @@ transition: 0.3s;
     bottom: 20px !important;
     
   }
+  
+.course-container{
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, rgb(197, 216, 253), blue);
+  border-radius: 25px;
+  box-shadow:  5px 5px 10px black ;
+  margin-left: 10px;
+}
+.course-container select{
+  padding: 10px 10px;
+  border:none;
+  background-image: var(--bgclr);
+  border-radius: 20px;
+}
+.course-container button{
+  padding: 7px 15px;
+  border:none;
+  background-image: var(--bgclr);
+  border-radius: 20px;
+}
 }
 
 .chat-bot{
