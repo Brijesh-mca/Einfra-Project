@@ -5,6 +5,9 @@
   --bgclr:  linear-gradient(to right, rgb(197, 216, 253), blue);
   position: relative;
 }
+body{
+  overflow-x: hidden;
+}
 
 
 .button-container { 
